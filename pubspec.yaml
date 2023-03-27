@@ -1,0 +1,43 @@
+name: hardik_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  provider: ^6.0.5
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_switch: ^0.3.2
+  smooth_page_indicator: ^1.0.0+2
+  flutter_svg_provider: ^1.0.3
+  grouped_list: ^5.1.2
+  intl: ^0.17.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Airbnb Cereal App
+      fonts: 
+        - asset: assets/fonts/AirbnbCerealAppBold.ttf
+          weight: 700
+        - asset: assets/fonts/AirbnbCerealAppMedium.ttf
+          weight: 500
+        - asset: assets/fonts/AirbnbCerealAppBook.ttf
+          weight: 400
+    - family: Switzer
+      fonts: 
+        - asset: assets/fonts/SwitzerRegular.ttf
+          weight: 400
+    - family: Work Sans
+      fonts: 
+        - asset: assets/fonts/WorkSansRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/WorkSansRomanRegular.ttf
+          weight: 400
